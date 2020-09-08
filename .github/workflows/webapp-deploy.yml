@@ -14,7 +14,7 @@ jobs:
         steps:
             # checkout repo
         -   name: Checkout repo
-            uses: actions/cherckout@master
+            uses: actions/checkout@master
 
         -   name: Setup .NET Core
             uses: actions/setup-dotnet@v1
